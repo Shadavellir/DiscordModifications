@@ -76,12 +76,14 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
 /* Avatar in bottom left */
 
 .avatarWrapper__37e49 {
+    /* change those if they don't exactly match your screen */
     max-width: 290px;
     min-width: 290px;
     transition: 0.5s;
 }
 
 .avatarWrapper__37e49:hover {
+    /* change those if they don't exactly match your screen */
     max-width: 290px;
     min-width: 290px;
     transition: 0.5s;
