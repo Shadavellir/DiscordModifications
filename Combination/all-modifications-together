@@ -4,7 +4,7 @@
 */
 
 
-/* Custom Spotify Controls For Vencord */
+/* Custom Spotify Controls */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/spotify-controls.css");
 
 /* Settings/Deafen/Mute/GameActivity Buttons Animated */
