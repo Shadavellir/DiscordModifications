@@ -1,0 +1,72 @@
+.clickable__91a9d:hover,
+.interactive_bf202d:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.clickable__91a9d,
+.interactive_bf202d {
+    transition: all 0.3s;
+}
+
+.newMessagesBar__0f481.barBase__0f481 {
+    margin-left: auto;
+    margin-top: auto;
+    align-self: flex-end;
+    justify-self: flex-end !important;
+    position: absolute !important;
+    z-index: 998;
+    bottom: 78px;
+    right: 22px;
+    padding: 8px 8px !important;
+    width: 25.5px;
+    height: 20px;
+    background-color: var(--brand-experiment);
+    box-shadow: var(--elevation-high);
+    border-radius: 100px;
+    display: flex;
+    animation: pop 0.2s ease-in;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+    opacity: 1;
+}
+
+.newMessagesBar__0f481.barBase__0f481:hover {
+    padding: 8px 18px !important;
+    width: 105px;
+    transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+}
+
+.newMessagesBar__0f481.barBase__0f481 > button {
+    font-size: 0px;
+    color: transparent !important;
+    transition: color 0.3s 0.1s, padding 0.4s;
+}
+
+.newMessagesBar__0f481.barBase__0f481:hover > button {
+    font-size: 14px;
+    color: #ffffff !important;
+    transition: color 0.3s 0.1s, padding 0.4s;
+}
+
+.barButtonIcon__0f481 {
+    order: -1;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 6.5px;
+    transition: all 0.2s;
+    color: #fff !important;
+}
+
+.newMessagesBar__0f481.barBase__0f481:hover .barButtonIcon__0f481 {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.barButtonBase__0f481 {
+    padding: 0;
+}
+
+.barButtonMain__0f481,
+.barButtonMain__0f481 * {
+    display: none !important;
+}
