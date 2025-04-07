@@ -91,6 +91,13 @@ html.theme-light #vc-spotify-player {
 .vc-spotify-repeat-context,
 .vc-spotify-shuffle-on{
     color: rgb(5, 207, 5) !important;
+    background-color: rgba(5, 207, 5, 0.1) !important;
+}
+
+.vc-spotify-repeat-track:hover,
+.vc-spotify-repeat-context:hover,
+.vc-spotify-shuffle-on:hover{
+    background-color: rgba(5, 207, 5, 0.2) !important;
 }
 
 .vc-spotify-progress-time {
