@@ -1,0 +1,329 @@
+/* General color and placement changes */
+
+.container__37e49 {
+    background: rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.panels_c48ade {
+    border-radius: 12px;
+    margin: 6px;
+}
+
+html.theme-dark .panels_c48ade {
+    background: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: 0 5px 8px #15171a;
+}
+
+html.theme-light .panels_c48ade {
+    background: #e4e4e4 !important;
+    box-shadow: 0 5px 8px #d6d6d6;
+}
+
+.sidebar_c48ade {
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+html.theme-dark .sidebar_c48ade .content__99f8c:after {
+    color: rgba(255, 255, 255, 0.03);
+    text-shadow: 0 0 15px #000;
+}
+
+html.theme-light .sidebar_c48ade .content__99f8c:after {
+    color: rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {
+    opacity: 0 !important;
+    width: 50px;
+    transition: all 0.3s;
+}
+
+.panels_c48ade > .container__37e49:hover .flex__7c0ba > :not(:last-child) {
+    opacity: 100% !important;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.button__67645[aria-label="User Settings"] {
+    margin-left: 10px;
+}
+
+.container-6sXIoE .alignStretch_abf706.flex_abf706 {
+    max-width: 190px;
+    min-width: 190px;
+}
+
+.details-ntX2k5 {
+    max-width: 805px !important;
+    min-width: 805px !important;
+}
+
+.maximized-vv2Wr0 .details-ntX2k5 {
+    max-width: 190px !important;
+    min-width: 190px !important;
+    position: relative;
+    display: block;
+    left: 0;
+}
+
+.maximized-vv2Wr0 .cover-SwJ-ck {
+    border-radius: 8px 8px 0px 0px;
+}
+
+/* Custom Vencord Spotify Controls */
+
+#vc-spotify-player {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+    border-bottom-color: transparent;
+    --vc-spotify-green: var(--accentcolorV2);
+}
+
+html.theme-dark #vc-spotify-player {
+    background-color: transparent !important;
+}
+
+html.theme-light #vc-spotify-player {
+    background-color: transparent !important;
+}
+
+#vc-spotify-player::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--vc-spotify-track-image);
+    background-size: cover;
+    background-position: center;
+    filter: blur(px);
+    opacity: .6;
+    z-index: 0;
+}
+
+#vc-spotify-info-wrapper {
+    height: auto;
+}
+
+#vc-spotify-titles {
+    padding: 0;
+}
+
+#vc-spotify-song-title,
+.vc-spotify-artist,
+.vc-spotify-album {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#vc-spotify-song-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.vc-spotify-artist,
+.vc-spotify-album {
+    font-size: 14px;
+}
+
+.vc-spotify-button-row {
+    width: fit-content;
+    align-self: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease;
+    order: 1;
+    z-index: 1;
+}
+
+#vc-spotify-player:hover .vc-spotify-button-row {
+    height: 32px;
+}
+
+#vc-spotify-progress-bar {
+    order: 2;
+    z-index: 1;
+}
+
+.vc-spotify-button {
+    --interactive-normal: #FFFFFF;
+    --interactive-hover: #FFFFFF;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
+}
+
+.vc-spotify-button:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.vc-spotify-repeat-track,
+.vc-spotify-repeat-context,
+.vc-spotify-shuffle-on{
+    color: rgb(5, 207, 5) !important;
+    background-color: rgba(5, 207, 5, 0.1) !important;
+}
+
+.vc-spotify-repeat-track:hover,
+.vc-spotify-repeat-context:hover,
+.vc-spotify-shuffle-on:hover{
+    background-color: rgba(5, 207, 5, 0.2) !important;
+}
+
+.vc-spotify-progress-time {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.vc-spotify-button {
+    --interactive-normal: #FFFFFF;
+    --interactive-hover: #FFFFFF;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
+}
+
+#vc-spotify-progress-bar {
+    order: 2;
+    z-index: 1;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+#vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
+    background-color: white;
+    position: relative;
+    margin-right: -16px;
+    margin-top: -6px;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.vc-spotify-progress-time {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+}
+
+/* Transparent album image to preserve onClick functionality */
+
+#vc-spotify-album-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#vc-spotify-info-wrapper {
+    position: static
+}
+
+#vc-spotify-titles > * {
+    z-index: 2;
+    max-width: 100%;
+    width: auto;
+}
+
+/* Handle expanded album image */
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper > #vc-spotify-album-image {
+    opacity: 1;
+    z-index: 1;
+}
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) .vc-spotify-button-row {
+    margin-top: auto;
+}
+
+/* Re-ordering elements to the put spotify player at the top */
+
+.panels_c48ade {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+#vc-spotify-player {
+    order: 1;
+}
+
+/* Re-ordering the rest of the elements */
+
+.panel__5dec7 {
+    /* Game activity */
+    order: 2;
+    background-color: transparent !important;
+}
+
+.wrapper_e131a9 {
+    /* Voice chat controls */
+    order: 3;
+}
+
+.container_e131a9 {
+    /* Voice chat controls */
+    background-color: transparent !important;
+}
+
+.container__37e49 {
+    /* Profile */
+    order: 10;
+}
+
+/* Settings/Deafen/Mute/GameActivity Buttons Animated */
+
+.button__67645:hover .contents__201d5 {
+    animation: UserModalButtons 0.5s normal ease;
+}
+
+@keyframes UserModalButtons {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes Settings {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes Settings2 {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
