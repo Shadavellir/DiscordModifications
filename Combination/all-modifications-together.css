@@ -4,11 +4,14 @@
 */
 
 
-/* Custom Spotify Controls */
-@import url("https://shadavellir.github.io/DiscordModifications/Components/spotify-controls.css");
-
 /* Settings/Deafen/Mute/GameActivity Buttons Animated */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/buttons-animated.css");
+
+/* Member List And Friend DMs Hover Effect */
+@import url("https://shadavellir.github.io/DiscordModifications/Components/member-list-dms-hover.css");
+
+/* Custom Spotify Controls */
+@import url("https://shadavellir.github.io/DiscordModifications/Components/spotify-controls.css");
 
 /* User Controls Animated */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/user-controls-animated.css");
