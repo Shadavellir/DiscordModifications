@@ -54,7 +54,6 @@
   bottom: 0px!important;
 }
 
-
 .visual-refresh [class^="panels_"] [class^="container__"] [class^="buttons__"] {
   opacity: 0;
   transform: scale(0);
