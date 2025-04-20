@@ -15,9 +15,9 @@
  &:has(.container_e131a9) {
   border: 1px solid var(--border-normal);
  }
-}
-.panels_c48ade #vc-spotify-player {
+ #vc-spotify-player {
   display: none !important;
+ }
 }
 
 .wrapper_e131a9 {
@@ -37,9 +37,9 @@
   .wrapper_e131a9 {
     height: auto!important;
   }
-}
-.panels_c48ade:hover #vc-spotify-player {
+  #vc-spotify-player {
   display: flex !important;
+ }
 }
 .sidebar_c48ade {
   overflow: visible!important;
