@@ -78,16 +78,11 @@
   display: block;
 }
 
-/* General Color and Placement Changes */
+/* General Color Changes */
 
 .container__37e49 {
     background: rgba(0, 0, 0, 0.1) !important;
     backdrop-filter: blur(10px) !important;
-}
-
-.panels_c48ade {
-    border-radius: 12px;
-    margin: 6px;
 }
 
 html.theme-dark .panels_c48ade {
