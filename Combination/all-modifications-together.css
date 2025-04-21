@@ -13,14 +13,30 @@
 /* Universal Font Changer */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/universal-font-changer.css");
 
+/* Glow Radial Status */
+@import url("https://shadavellir.github.io/DiscordModifications/Components/glow-radial-status.css");
+
 /* Settings Menu Edited */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/SettingsMenu/settings-menu-edited.css");
 
 /* Settings Menu Icons */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/SettingsMenu/settings-menu-icons.css");
 
-/* Folders Redesign*/
+/* Folders Redesign */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/folders-redesign.css");
+
+/* General Changes */
+@import url("https://shadavellir.github.io/DiscordModifications/Components/general-changes.css");
 
 /* Colored Links */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/colored-links.css");
+
+/* Fixes */
+@import url("https://shadavellir.github.io/DiscordModifications/Components/fixes.css");
+
+:root {
+    /* background image (you can replace the link or remove the link entirely) */
+    --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
+    --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
+}
