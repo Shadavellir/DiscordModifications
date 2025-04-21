@@ -1,3 +1,10 @@
+:root {
+    --themelightsettingsmodalbackground: rgb(223, 223, 223);
+    --themedarksettingsmodalbackground: rgb(51, 49, 53);
+    --settingsmodalwidth: 960px;
+    --settingsmodalheight: 80vh;
+}
+
 html.theme-dark .header_b3f026 {
   margin-top: -12px;
   color: #A3A0C2;
@@ -305,4 +312,170 @@ html.theme-light .badgeList__1fed1 {
 
 .field__1fed1:last-child {
     margin-right: 0 !important;
+}
+
+#app-mount .baseLayer__960e4 {
+    opacity: 1 !important;
+    transform: unset !important;
+    will-change: unset !important;
+}
+
+#app-mount .stop-animations * {
+    transition-property: inherit !important;
+    animation: inherit !important;
+}
+
+#app-mount .layer__960e4.stop-animations:first-child::after {
+    content: "" !important;
+    position: fixed !important;
+    background: rgb(0, 0, 0) !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0.85 !important;
+    z-index: 999 !important;
+    pointer-events: none !important;
+}
+
+.theme-light #app-mount .layer__960e4 ~ .layer__960e4 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--themelightsettingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
+}
+
+.theme-dark #app-mount .layer__960e4 ~ .layer__960e4 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--themedarksettingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 > div,
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b {
+    position: static !important;
+    border-radius: unset !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: unset !important;
+    padding: unset !important;
+    overflow: hidden !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebar__23e6b {
+    width: 218px !important;
+    padding: 20px 6px 20px 20px !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .contentColumnDefault__23e6b {
+    padding: 20px 40px !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .side_b3f026 {
+    height: var(--settingsmodalheight) !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
+    max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .tools__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .container_c2b141,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    max-width: unset !important;
+    height: 100% !important;
+    max-height: unset !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    cursor: default !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b {
+    position: fixed !important;
+    top: 22px !important;
+    z-index: -1 !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .toolbar__9293f {
+    display: none !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
+    max-width: calc(var(--settingsmodalwidth) - 730px) !important;
+}
+
+#app-mount .root__5c9fc .closeWrapper-9ScmSq,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .container_c2b141,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeButton_c2b141 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    max-width: unset !important;
+    height: 100% !important;
+    max-height: unset !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    cursor: default !important;
+}
+
+#app-mount .root__5c9fc .closeWrapper-9ScmSq {
+    position: fixed !important;
+    top: 22px !important;
+    z-index: -1 !important;
+}
+
+.theme-dark .sidebarRegion__23e6b {
+    background: var(--sidebar-colour);
+}
+
+.theme-light .sidebarRegion__23e6b {
+    background: var(--sidebar-colour);
+}
+
+.contentRegion__23e6b {
+    zoom: 0.9 !important;
 }
