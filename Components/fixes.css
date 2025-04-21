@@ -91,3 +91,29 @@ html.theme-light .inline {
 .tutorialContainer__1f388:first-child {
     padding-top: 5px;
 }
+
+/* threads background fix */
+.container_d9c882 {
+    backdrop-filter: blur(15px) !important;
+}
+
+/* pins / inbox background fix */
+.messagesPopoutWrap__45690,
+.recentMentionsPopout__95796,
+.drawerSizingWrapper__08434 {
+    backdrop-filter: blur(15px) !important;
+}
+
+/* inbox alignment fix */
+.container__95796 {
+    padding-left: 16px;
+}
+
+/* message hover small buttons fix */
+html.theme-dark .wrapper_f7ecac {
+    background: rgb(51, 49, 53) !important;
+}
+
+html.theme-light .wrapper_f7ecac {
+    background: rgb(243, 243, 243) !important;
+}
