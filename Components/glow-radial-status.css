@@ -13,7 +13,7 @@
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #636b75;
-    --rs-phone-visible: none; /* change it to `none` to disable mobile icon */
+    --rs-phone-visible: none; /* change it to `none` or 'block' to disable/enable the mobile icon */
     --rs-phone-color: var(--rs-online-color);
 }
 
