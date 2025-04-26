@@ -19,6 +19,15 @@
     #vc-spotify-player {
     display: none !important;
     }
+    .listeningAlong_e0cf27 {
+        display: none !important;
+    }
+    .panel__5dec7 {
+        display: none !important;
+    }
+    activityPanel_c48ade {
+        display: none !important;
+    }
 }
 
 .wrapper_e131a9 {
@@ -35,10 +44,19 @@
     filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.123)) ;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     .wrapper_e131a9 {
-    height: auto!important;
+        height: auto!important;
     }
     #vc-spotify-player {
-    display: flex !important;
+        display: flex !important;
+    }
+    .listeningAlong_e0cf27 {
+        display: flex !important;
+    }
+    .panel__5dec7 {
+        display: block !important;
+    }
+    activityPanel_c48ade {
+        display: block !important;
     }
 }
 .sidebar_c48ade {
