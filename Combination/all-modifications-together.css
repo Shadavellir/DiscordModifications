@@ -38,7 +38,7 @@
     /* dark mode background image (you can replace the link or remove the link entirely) */
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
-    --wallpaper: url("https://shadavellir.github.io/DiscordModifications/Components/Wallpapers/black-stars-aesthetic.png");
+    --wallpaper: url("https://shadavellir.github.io/DiscordModifications/Components/Wallpapers/modern-dark-bg.png");
 }
 
 :root.theme-light {
