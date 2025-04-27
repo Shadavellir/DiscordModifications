@@ -34,16 +34,16 @@
 /* Fixes */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/fixes.css");
 
-html.theme-light {
-    /* light mode background image (you can replace the link or remove the link entirely) */
-    --background-image: var(--wallpaper);
-    --bg-opacity: 100%;
-    --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
-}
-
-html.theme-dark {
+:root.theme-dark {
     /* dark mode background image (you can replace the link or remove the link entirely) */
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
-    --wallpaper: url("https://w0.peakpx.com/wallpaper/241/159/HD-wallpaper-black-stars-black-aesthetic.jpg");
+    --wallpaper: url("https://shadavellir.github.io/DiscordModifications/Components/Wallpapers/black-stars-aesthetic.png");
+}
+
+:root.theme-light {
+    /* light mode background image (you can replace the link or remove the link entirely) */
+    --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
+    --wallpaper: url("https://shadavellir.github.io/DiscordModifications/Components/Wallpapers/modern-mixed-bg.png");
 }
