@@ -7,6 +7,167 @@
     background: transparent !important;
 }
 
+/* general transparency fixes */
+/*home tab fix*/
+.forumOrHome__49676 {
+    background: transparent;
+}
+
+/*spotify controls error background*/
+.panels_c48ade span {
+    background: transparent !important;
+}
+
+/* Server list */
+.wrapper_ef3116 {
+    background-color: transparent !important;
+}
+
+/*channel list*/
+.container__2637a {
+    background-color: transparent !important;
+}
+
+.sidebarListRounded_c48ade {
+    backdrop-filter: none !important;
+}
+
+/*main chat area*/
+.chat_f75fb0 {
+    background-color: transparent !important;
+}
+
+/*chat message area*/
+.chatContent_f75fb0 {
+    background-color: transparent !important;
+}
+
+/*member list*/
+.container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
+    background-color: transparent !important;
+}
+
+/*hide borders*/
+.sidebarList_c48ade,
+.container_c8ffbb,
+.chat_f75fb0,
+.chatContent_f75fb0,
+.container__9293f,
+.channelTextArea_f75fb0 {
+    border-color: transparent !important;
+}
+
+/*transparent scrollbar*/
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-clip: content-box !important;
+    background: var(--chillax-scroller-color) !important;
+}
+
+/*transparent call background*/
+.wrapper_cb9592,
+.minimum_cb9592,
+.callContainer_cb9592 {
+    background: none !important;
+}
+
+.root_f555ee,
+.tile__90dc5 {
+    background: none;
+}
+
+.videoGrid_a21736 {
+    background: transparent !important;
+}
+
+/* transparent role selection / browse channels / members page background */
+.container__9293f,
+.container__0b563,
+.container_c2efea,
+.visual-refresh .page_c791b2,
+.visual-refresh .mainTableContainer__09a38,
+.visual-refresh .container__0b563, .visual-refresh .header__0b563,
+.visual-refresh .pageBody__41ed7,
+.visual-refresh .channelRow_e4503a {
+    background-color: transparent !important;
+}
+
+/* discover server section transparent background */
+.visual-refresh .container__551b0,
+.visual-refresh .scroller__23746 {
+    background-color: transparent !important;
+}
+
+.theme-dark .gradient_e9ef78 {
+    background: radial-gradient(130.66% 324.98% at -3.95% 0, #b41010 0, rgba(15, 28, 143, 0.8) 35.73%, rgba(8, 175, 16, 0) 100%), #000;
+}
+
+/* transparent background for the shop, nitro page */
+.visual-refresh .shop__6db1d,
+.shopScroll__6db1d,
+.shop__08415,
+.pageWrapper__6db1d,
+.applicationStore_f07d62,
+.visual-refresh .homeWrapper__0920e,
+.allPerksScroller_ca1a02, .mainPageScroller_ca1a02 {
+    background: transparent !important;
+}
+
+.headerArtV2__3ce43 {
+    border-radius: 15px;
+}
+
+/*small profile modal*/
+.userPopout-2j1gM4 {
+    backdrop-filter: blur(4px);
+}
+
+html.theme-dark .userPopout-2j1gM4 {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+html.theme-light .userPopout-2j1gM4 {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+html.theme-dark .footer-3naVBw {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+html.theme-light .footer-3naVBw {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.avatar-2Vndt_ {
+    border: 6px solid transparent;
+    background-color: transparent;
+}
+
+.bodyInnerWrapper-2bQs1k {
+    background: transparent;
+}
+
+/*small profile modal 2*/
+.avatar-2OC07D {
+    background: none;
+    box-shadow: none !important;
+}
+
+.avatarHint_f89da9 foreignObject {
+    mask: none;
+}
+
+.avatarHintInner_f89da9 {
+    border-radius: 50px;
+}
+
 /* nitro badge fix */
 .profileBadge22_b64375:not(#a#b), .profileBadge22-3OAigE:not(#a#b) {
     object-position: unset;
