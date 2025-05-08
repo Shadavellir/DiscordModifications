@@ -1,6 +1,8 @@
 /* 
     Each addon can work on its own.
     Meaning you can remove one if you don't like it or if it's bugged.
+
+    @Source https://github.com/Shadavellir/DiscordModifications
 */
 
 
@@ -33,6 +35,21 @@
 
 /* Fixes */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/fixes.css");
+
+/*use the following code if you are experiencing lag (remove both the * and the / that are before and after the code)*/
+/*
+* {
+    animation: none !important;
+}
+
+* {
+    backdrop-filter: unset !important;
+}
+
+* {
+    transition: none !important;
+}
+*/
 
 :root.theme-dark {
     /* dark mode background image (you can replace the link or remove the link entirely) */
