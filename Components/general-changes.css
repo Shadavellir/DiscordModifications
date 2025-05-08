@@ -775,6 +775,7 @@ html.theme-light .drawerSizingWrapper__08434 {
 
 .recentsIcon_c99c29,
 .trailing_c38106 > .anchor_edefb8,
+.button__85643,
 .winButtons_c38106 > div {
     height: var(--space-32);
     background: var(--window-colour);
@@ -785,6 +786,7 @@ html.theme-light .drawerSizingWrapper__08434 {
 
 .recentsIcon_c99c29:hover,
 .trailing_c38106 > .anchor_edefb8:hover,
+.button__85643:hover,
 .winButtons_c38106 > div:hover {
     background: transparent;
     transition: 0.1s;
@@ -826,4 +828,18 @@ html.theme-light .drawerSizingWrapper__08434 {
 
 .leading_c38106::before {
     margin-left: calc(max(var(--window-margin), 4px));
+}
+
+:root.theme-dark {
+    /* dark mode background image (you can replace the link or remove the link entirely) */
+    --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
+    --wallpaper: url("https://shadavellir.github.io/DiscordModifications/Components/Wallpapers/modern-dark-bg.png");
+}
+
+:root.theme-light {
+    /* light mode background image (you can replace the link or remove the link entirely) */
+    --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
+    --wallpaper: url("https://shadavellir.github.io/DiscordModifications/Components/Wallpapers/modern-mixed-bg.png");
 }
