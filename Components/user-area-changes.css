@@ -1,18 +1,18 @@
 /* Collapsible Panel */
 
 .panels_c48ade {
-    left: 8px!important;
-    bottom: 3px!important;
-    height: 57px!important;
-    width: 56px!important;
-    border-radius: 30px!important;
-    display: flex!important;
+    left: 8px !important;
+    bottom: 3px !important;
+    height: 57px !important;
+    width: 56px !important;
+    border-radius: 30px !important;
+    display: flex !important;
     flex-direction: column;
     overflow: hidden;
     transition-duration: 0.35s;
     z-index: 50000;
     pointer-events: all;
-    border: 1px solid var(--border-subtle)!important;
+    border: 1px solid var(--border-subtle) !important;
     &:has(.container_e131a9) {
     border: 1px solid var(--border-normal);
     }
@@ -36,15 +36,15 @@
 }
 
 .panels_c48ade:hover {
-    width: 312px!important; /* can be changed to fit your screen (must be in px) */
-    height: auto!important;
-    display: flex!important;
+    width: 312px !important; /* can be changed to fit your screen (must be in px) */
+    height: auto !important;
+    display: flex !important;
     flex-direction: column;
-    border-radius: 15px!important;
+    border-radius: 15px !important;
     filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.123)) ;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     .wrapper_e131a9 {
-        height: auto!important;
+        height: auto !important;
     }
     #vc-spotify-player {
         display: flex !important;
@@ -60,16 +60,16 @@
     }
 }
 .sidebar_c48ade {
-    overflow: visible!important;
+    overflow: visible !important;
 }
 .container__2637a {
-    padding-bottom: 0px!important;
+    padding-bottom: 0px !important;
 }
 .scroller__99e7c {
-    margin-bottom: 0px!important;
+    margin-bottom: 0px !important;
 }
 .bottom__7aaec {
-    bottom: 0px!important;
+    bottom: 0px !important;
 }
 
 .visual-refresh [class^="panels_"] [class^="container__"] [class^="buttons__"] {
