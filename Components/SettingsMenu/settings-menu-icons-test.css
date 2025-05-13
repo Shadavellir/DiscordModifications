@@ -14,7 +14,7 @@
 	--settingsicons-sessions: url();
 	--settingsicons-connections: url();
 	--settingsicons-clips: url();
-	--settingsicons-nitro: url();
+	--settingsicons-nitro: url(s);
 	--settingsicons-boosts: url();
 	--settingsicons-subscriptions: url();
 	--settingsicons-gifts: url();
