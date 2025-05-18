@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 :root{
-    /*theme background image*/
+    /* theme background image */
     .bg__960e4 {
         background-image: var(--background-image) !important;
         opacity: var(--bg-opacity) !important;
