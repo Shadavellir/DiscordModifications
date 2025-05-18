@@ -27,7 +27,7 @@
     }
 }
 
-/* Windowed Discord (Dark Mode) */
+/* windowed Discord (Dark Mode) */
 :root.theme-dark {
     --window-margin: 20px; /* must be above 20px */
     --window-colour: #0009;
@@ -36,13 +36,75 @@
     --sidebar-colour: rgb(36, 36, 36);
 }
 
-/* Windowed Discord (Light Mode) */
+/* windowed Discord (Light Mode) */
 :root.theme-light {
     --window-margin: 20px; /*must be above 20px*/
     --window-colour: rgba(255, 255, 255, 0.6);
     --window-blur: 5px;
     --window-border-radius: 10px;
     --sidebar-colour: rgb(209, 209, 209);
+}
+
+/* reduce context menu padding */
+.layer_da8173 > .menu_c1e9c4 > .scroller_c1e9c4 {
+    margin: -4px;
+    .separator_c1e9c4 {
+        margin: 1px 8px !important;
+    }
+    .wrapper_f563df {
+        padding: 2px !important;
+    }
+    .item_c1e9c4{
+        /* min-height is 32px as default, change value for desired look */
+        min-height: 32;
+        /* padding is 4px 8px as default, change value for desired look */
+        padding: 4px 8px;
+    }
+}
+
+/* collapse clan tags to icon (with pazazz) */
+[class^="chipletContainerInner_"] > span > .unselectable__10651 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  will-change: max-width, margin;
+  transition: max-width 0.7s cubic-bezier(0.34, 1.56, 0.64, 1), 
+              margin 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+[class^="chipletContainerInner_"]:hover > span > .unselectable__10651 {
+  max-width: 20ch;
+  margin-right: .3ch;
+  /* prevents it from triggering if you just quickly mouseover :D */
+  transition-delay: 0.08s;
+}
+
+[class^="chipletContainerInner_"] > span > img.badge__10651 {
+  margin-right: 0;
+  transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1), 
+              margin 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+[class^="chipletContainerInner_"]:hover > span > img.badge__10651 {
+  transform: rotateZ(360deg);
+  margin-right: .6ch;
+  /* same as above transition delay */
+  transition-delay: 0.08s;
+}
+
+[class^="chipletContainerInner_"] {
+  position: relative;
+}
+
+[class^="chipletContainerInner_"]::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  pointer-events: none;
 }
 
 /* channel list */
