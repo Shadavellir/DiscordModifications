@@ -1,4 +1,5 @@
 /* 
+    You can copy and paste this code directly into your "Edit QuickCSS" option in your theme settings
     Each addon can work on its own.
     Meaning you can remove one if you don't like it or if it's bugged.
 
@@ -9,8 +10,16 @@
 /* Member List And Friend DMs Hover Effect */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/member-list-dms-hover.css");
 
-/* User Controls Area Modifications */
-@import url("https://shadavellir.github.io/DiscordModifications/Components/user-area-changes.css");
+/* User Controls Area Modifications (1)*/
+/* this is the default on (make sure to add both "*" and "/" before and after the code to disable the changes of this part,
+                                                   only if you want to enable the "User Controls Area Modifications [2]")*/
+@import url("https://shadavellir.github.io/DiscordModifications/Components/user-area-changes1.css");
+
+/* User Controls Area Modifications (2) */
+/* pick whichever one you prefer (remove both the "*" and the "/" that are before and after the code to apply the changes) */
+/*
+@import url("https://shadavellir.github.io/DiscordModifications/Components/user-area-changes2.css");
+*/
 
 /* Universal Font Changer */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/universal-font-changer.css");
@@ -36,7 +45,7 @@
 /* Fixes */
 @import url("https://shadavellir.github.io/DiscordModifications/Components/fixes.css");
 
-/*use the following code if you are experiencing lag (remove both the * and the / that are before and after the code)*/
+/*use the following code if you are experiencing lag (remove both the "*" and the "/" that are before and after the code to apply the changes)*/
 /*
 * {
     animation: none !important;
@@ -51,6 +60,7 @@
 }
 */
 
+/* change wallpaper */
 :root.theme-dark {
     /* dark mode background image (you can replace the link or remove the link entirely) */
     --background-image: var(--wallpaper);
