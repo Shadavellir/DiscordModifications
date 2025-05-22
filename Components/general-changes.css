@@ -45,6 +45,35 @@
     --sidebar-colour: rgb(209, 209, 209);
 }
 
+/* animated message options */
+.button_f7ecac > div,
+.buttonsInner__5126c > .button_f7ecac:not(:nth-last-child(2)) {
+    width: 0;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    transition: width 0.1s ease-out;
+    transition: padding 0.1s ease-out;
+}
+
+.buttonsInner__5126c:hover > :not(.separator_f84418, .button_f7ecac:has(div)),
+.buttonsInner__5126c:has(
+    .button_f7ecac:hover ~ .button_f7ecac[aria-label*="Add"],
+    [aria-label*="Add"]:hover
+) > .button_f7ecac:has(div) {
+    width: 24px;
+    min-width: 24px;
+    padding: 2px;
+    
+    > .icon_f84418 {
+        width: 20px;
+    }
+}
+
+.separator_f84418 {
+    display: none;
+}
+
 /* reduce context menu padding */
 .layer_da8173 > .menu_c1e9c4 > .scroller_c1e9c4 {
     margin: -4px;
@@ -275,7 +304,7 @@ html.theme-light .lookFilled__201d5:hover {
     margin-left: -6px;
 }
 
-/* Channel Hover Effect */
+/* channel hover effect */
 .mainContent-20q_Hp {
     transition: all 0.3s;
     position: relative;
