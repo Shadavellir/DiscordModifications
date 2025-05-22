@@ -1,5 +1,4 @@
-/* Collapsible Panel */
-
+/* collapsible panel */
 .panels_c48ade {
     left: 8px !important;
     bottom: 3px !important;
@@ -93,8 +92,7 @@
     display: block;
 }
 
-/* General Color Changes */
-
+/* general color changes */
 .container__37e49 {
     background: rgba(0, 0, 0, 0.1) !important;
     backdrop-filter: blur(10px) !important;
@@ -165,8 +163,7 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
     border-radius: 8px 8px 0px 0px;
 }
 
-/* Custom Vencord Spotify Controls */
-
+/* custom vencord spotify controls */
 #vc-spotify-player {
     display: flex;
     flex-direction: column;
@@ -302,8 +299,7 @@ html.theme-light #vc-spotify-player {
     margin-top: 5px;
 }
 
-/* Transparent album image to preserve onClick functionality */
-
+/* transparent album image to preserve onClick functionality */
 #vc-spotify-album-image {
     position: absolute;
     top: 0;
@@ -323,8 +319,7 @@ html.theme-light #vc-spotify-player {
     width: auto;
 }
 
-/* Handle expanded album image */
-
+/* handle expanded album image */
 #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
     position: relative;
     aspect-ratio: 1/1;
@@ -347,8 +342,7 @@ html.theme-light #vc-spotify-player {
     margin-top: auto;
 }
 
-/* Re-ordering elements to the put spotify player at the top */
-
+/* re-ordering elements to the put spotify player at the top */
 .panels_c48ade {
     display: flex;
     flex-direction: column;
@@ -359,31 +353,29 @@ html.theme-light #vc-spotify-player {
     order: 1;
 }
 
-/* Re-ordering the rest of the elements */
-
+/* re-ordering the rest of the elements */
 .panel__5dec7 {
-    /* Game activity */
+    /* game activity */
     order: 2;
     background-color: transparent !important;
 }
 
 .wrapper_e131a9 {
-    /* Voice chat controls */
+    /* voice chat controls */
     order: 3;
 }
 
 .container_e131a9 {
-    /* Voice chat controls */
+    /* voice chat controls */
     background-color: transparent !important;
 }
 
 .container__37e49 {
-    /* Profile */
+    /* profile */
     order: 10;
 }
 
 /* Settings/Deafen/Mute/GameActivity Buttons Animated */
-
 .button__67645:hover .contents__201d5 {
     animation: UserModalButtons 0.5s normal ease;
 }
