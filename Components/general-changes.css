@@ -45,6 +45,22 @@
     --sidebar-colour: rgb(209, 209, 209);
 }
 
+/* animated discord logo */
+.childWrapper__6e9f8:hover, 
+.childWrapperNoHoverBg__6e9f8:hover {
+    animation: RotateDiscordLogo 0.8s ease;
+    animation-delay: 0.08s;
+}
+
+@keyframes RotateDiscordLogo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* animated message options */
 .button_f7ecac > div,
 .buttonsInner__5126c > .button_f7ecac:not(:nth-last-child(2)) {
