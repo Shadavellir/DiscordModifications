@@ -92,6 +92,17 @@
     display: block;
 }
 
+/* hide menus next to mute and deafen buttons */
+div[class^=micButtonParent__] {
+  button[role="switch"] {
+    border-radius: var(--radius-sm) !important;
+    
+    ~ button {
+      display: none;
+    }
+  }
+}
+
 /* general color changes */
 .container__37e49 {
     background: rgba(0, 0, 0, 0.1) !important;
